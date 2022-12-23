@@ -1,0 +1,34 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62,5%;
+}
+
+body {
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+/*
+shorthand
+background: image repeat position /seze;
+background: url(./assets/bg-mobile.jpg) no-repeat top center/cover ;*/
+}
+
+#container {
+  width: 36rem;
+  height: 71.2rem;
+  margin: auto;
+
+  border: 1px solid red;
+}
+
+#profile img {
+  border-radius: 50%;
+  height: 20rem;
+}
