@@ -29,6 +29,7 @@ background: url(./assets/bg-mobile.jpg) no-repeat top center/cover ;*/
 #container {
   width: 36rem;
   margin: 5.6rem auto 0rem;
+  padding: 2.4rem;
 }
 
 #profile {
@@ -58,6 +59,8 @@ ul {
   flex-direction: column;
   gap: 1.6rem;
 
+  padding: 2.4rem 0;
+
 }
 
 ul li a {
@@ -84,3 +87,24 @@ ul li a:hover {
   background: rgba(255, 255, 255, 0.5);
   border: 1.5px solid rgb(255, 255, 255);
 }
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  padding: 2.4rem;
+  font-size: 3rem;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem;
+  transition: background .3s;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+   background: rgba(255, 255, 255, 0.2);
+   
+
