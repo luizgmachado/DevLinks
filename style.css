@@ -51,10 +51,22 @@ body * {
   width: 112px;
 }
 
-#profile p {
+#nameProfile p {
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
+}
+
+#nameProfile {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+#nameProfile img {
+ width: 20px;
+ margin-bottom: -8px;
 }
 
 /* switch */
@@ -99,6 +111,7 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
+
 
 /* links */
 ul {
