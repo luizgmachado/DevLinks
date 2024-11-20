@@ -44,11 +44,14 @@ body * {
 /* profile */
 #profile {
   text-align: center;
-  padding: 24px;
+  padding: 30px;
 }
+
 
 #profile img {
   width: 112px;
+  height: 112px;
+  border-radius: 50%;
 }
 
 #nameProfile p {
@@ -65,8 +68,10 @@ body * {
 }
 
 #nameProfile img {
- width: 20px;
+ width: 24px;
+ height: 24px;
  margin-bottom: -8px;
+ margin-left: 2px;
 }
 
 /* switch */
